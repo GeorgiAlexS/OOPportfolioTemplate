@@ -41,12 +41,28 @@ Introduce the following errors, one at a time. Note any messages that the compil
 
 
 a. Change Test to test.\
+output: java: class test is public, should be declared in a file named test.java
+
 b. Change Emergency to emergency.\
+Output:An emergency Broadcast
+
 c. Remove the first quotation mark in the string.\
+output::3:30
+java: ')' or ',' expected
+
 d. Change main to man.\
+Output:Doesn't let me run the code
+
 e. Change println to bogus.\
+Output:java: cannot find symbol
+  symbol:   method bogus(java.lang.String)
+  location: variable out of type java.io.PrintStream
+  
 f. Remove the semicolon at the end of the println statement.\
+output:java: ';' expected
+
 g. Remove the last brace in the program.
+Output:java: reached end of file while parsing
 
 
 **3. Create a second project called “PersonalDetails” and write a program that outputs some personal details to the screen, e.g. Name, Address, Age, Phone number etc.**
